@@ -1,16 +1,14 @@
+import React from "react";
+// import {Test} from "./Test/Test"
+// import {DataStatistics} from "./DataStatistics/DataStatistics"
+import { Phonebook } from "./Phonebook/Phonebook/Phonebook";
+
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <Phonebook/>
+     {/* <DataStatistics/> */}
     </div>
   );
 };
